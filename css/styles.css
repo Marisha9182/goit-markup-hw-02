@@ -1,6 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+:root{
+    --text: #434455;
+    --title: #2E2F42;
 }
 
 .list{
@@ -11,25 +18,23 @@ body{
     text-decoration: none;
 }
 
-.title{
-    font-size: 36px;
+.title {
+font-size: 36px;
 line-height: 1.11;
-text-align: center;
 letter-spacing: 0.02em;
-text-transform: capitalize;
 }
 
 .text{
-    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-:root{
-    --text: #434455;
-    --title: #2E2F42;
+.subtitle{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
-
 
 /*-----------HEADER----------------*/
 
@@ -55,15 +60,13 @@ color: #2E2F42;
 
 .header-item {
     font-weight: 500;
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
-/*.header-item:focus,*/
-
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
     color: #434455;
 }
 
@@ -75,16 +78,11 @@ color: #2E2F42;
     color: #2E2F42;
 }
 
-.header-adress {
-    
-}
 .header-adress-list {
     font-style: normal;
 }
 
-
 .header-adress-tel {
-    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
@@ -92,19 +90,20 @@ color: var(--text);
 position: relative;
 }
 
-.header-adress-tel:hover{
+.header-adress-tel:hover,
+.header-adress-tel:focus{
     color: #4D5AE5;
 }
 
 .header-adress-mail {
-    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--text);
 }
 
-.header-adress-mail:hover{
+.header-adress-mail:hover,
+.header-adress-mail:focus{
     color: #4D5AE5;
 }
 
@@ -116,7 +115,6 @@ color: var(--text);
 .main-title {
     font-size: 56px;
 line-height: 1.07;
-text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
@@ -138,7 +136,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
 
-.main-btn:hover{
+.main-btn:hover,
+.main-btn:focus{
     background: #4D5AE5;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -148,26 +147,19 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-
 /*--------------HERO------------------*/
 
-
-.hero-list {
+.hero{
+    background-color:  #FFFFFF;;
 }
 
-.hero-title-two{
+.hero-title{
     display: none;
+    color: #2E2F42;   
 }
 
-.hero-title-three{
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+.hero-subtitle{
 color: var(--title);
-}
-
-.hero-item {
 }
 
 .hero-text {
@@ -177,20 +169,14 @@ color: var(--text);
 /*-----------ABOUT----------------*/
 
 .about {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 
 .about-title {
 color: var(--title);
 }
-.about-list {
-}
-.about-item {
-}
-
 
 /*-----------TEAM----------------*/
-
 
 .team {
     background: #F4F4FD;
@@ -198,16 +184,12 @@ color: var(--title);
 .team-title {
 color: var(--title);
 }
-.team-list {
-}
+
 .team-item {
+    background-color: #FFFFFF;
 }
-.team-title-two {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
+
+.team-subtitle {
 color: var(--title);
 }
 
@@ -217,17 +199,10 @@ color: var(--text);
 
 /*-----------PORTFOLIO----------------*/
 
-.portfolio {
-}
 .portfolio-menu {
     display: none;
 }
-.portfolio-list {
-}
-.list {
-}
-.portfolio-item {
-}
+
 .portfolio-btn {
     font-weight: 500;
 font-size: 16px;
@@ -250,15 +225,15 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 
 .menu-list {
 }
+
 .menu-iteam {
+    background: #FFFFFF;
 }
-.menu-title {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+
+.menu-subtitle {
 color: var(--title);
 }
+
 .menu-text {
 color: var(--text);
 }
